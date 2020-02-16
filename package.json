@@ -1,0 +1,19 @@
+{
+  "name": "node-api-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "results": "node ./src/tests/results.js"
+  },
+  "keywords": [],
+  "author": "yshir",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-cookiejar-support": "^0.5.1",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "query-string": "^6.11.0"
+  }
+}
